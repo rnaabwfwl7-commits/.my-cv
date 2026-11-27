@@ -5,56 +5,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>رنا أبو فول - CV</title>
+    <title>مدونتي - أهمية التكنولوجيا</title>
 
     <style>
-        * {
-            box-sizing: border-box;
-        }
-
         body {
-            font-family: Tahoma, Arial, sans-serif;
-            background: #f3f1f8;
+            font-family: Arial, sans-serif;
+            background-color: #f2f5f8;
             color: #333;
             margin: 0;
-            line-height: 1.9;
-        }
-
-        .container {
-            max-width: 950px;
-            margin: 30px auto;
-            background: white;
-            padding: 30px;
-            border-radius: 15px;
-            box-shadow: 0 4px 20px #00000015;
+            line-height: 1.8;
         }
 
         header {
-            text-align: center;
-            background: #7556a5;
+            background-color: #245b83;
             color: white;
-            padding: 30px;
-            border-radius: 12px;
+            text-align: center;
+            padding: 25px;
         }
 
-        header h1 {
-            margin: 0;
-            font-size: 30px;
+        nav {
+            background-color: #183d59;
+            padding: 15px;
+            text-align: center;
         }
 
-        header h2 {
-            font-size: 19px;
-            font-weight: normal;
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 12px;
         }
 
-        section {
-            margin: 25px 0;
+        main {
+            width: 90%;
+            margin: 25px auto;
         }
 
-        section h2 {
-            color: #7556a5;
-            border-bottom: 2px solid #e5dcef;
-            padding-bottom: 8px;
+        article {
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        aside {
+            background-color: #e1edf5;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        h2, h3 {
+            color: #245b83;
         }
 
         figure {
@@ -62,73 +62,47 @@
         }
 
         figure img {
-            width: 200px;
-            height: 200px;
-            object-fit: cover;
-            border-radius: 50%;
-            border: 5px solid #7556a5;
+            width: 90%;
+            max-width: 600px;
+            border-radius: 10px;
         }
 
         figcaption {
-            color: #7556a5;
-            font-weight: bold;
+            color: #666;
         }
 
-        li {
-            margin-bottom: 8px;
+        blockquote {
+            background-color: #eaf3fa;
+            padding: 15px;
+            border-right: 5px solid #245b83;
         }
 
-        table {
+        iframe {
             width: 100%;
-            border-collapse: collapse;
-            text-align: center;
-        }
-
-        th, td {
-            border: 1px solid #ddd;
-            padding: 12px;
-        }
-
-        th {
-            background: #7556a5;
-            color: white;
-        }
-
-        tr:nth-child(even) {
-            background: #f3f1f8;
-        }
-
-        a {
-            color: #7556a5;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        a:hover {
-            color: #b078bd;
-            text-decoration: underline;
+            max-width: 560px;
+            height: 315px;
+            border: none;
         }
 
         footer {
+            background-color: #183d59;
+            color: white;
             text-align: center;
-            color: #777;
-            border-top: 1px solid #ddd;
-            padding-top: 15px;
-            margin-top: 30px;
+            padding: 20px;
+        }
+
+        footer a {
+            color: #b8e0ff;
+        }
+
+        address {
+            font-style: normal;
         }
 
         @media (max-width: 600px) {
-            .container {
-                margin: 10px;
-                padding: 15px;
-            }
-
-            header h1 {
-                font-size: 23px;
-            }
-
-            table {
-                font-size: 13px;
+            nav a {
+                display: inline-block;
+                margin: 5px;
             }
         }
     </style>
@@ -136,138 +110,158 @@
 
 <body>
 
-<div class="container">
-
-    <!-- HEADER -->
-    <header>
-        <h1>رنا عمر علي عبد العزيز أبو فول</h1>
-
-        <h2>طالبة نظم معلومات إدارية وتجارية معاصرة</h2>
-
-        <p>
-            أنا رنا، طالبة في جامعة الأقصى، مهتمة بتكنولوجيا المعلومات
-            وتصميم المواقع الإلكترونية والتصميم الجرافيكي وإدارة المشاريع.
-            أسعى إلى تطوير مهاراتي واكتساب خبرات عملية في مجال التكنولوجيا.
-        </p>
+    <header id="home">
+        <h1>مدونتي الإلكترونية</h1>
+        <p>أفكار ومعلومات عن التكنولوجيا الحديثة</p>
     </header>
 
-    <hr>
+    <nav>
+        <a href="#home">الرئيسية</a>
+        <a href="#article">المقالة</a>
+        <a href="#benefits">الفوائد</a>
+        <a href="#contact">اتصل بنا</a>
+    </nav>
 
-    <!-- PHOTO -->
-    <section>
-        <h2>الصورة الشخصية</h2>
+    <main>
 
-        <figure>
-            <img src="Rana.jpg"
-                 alt="الصورة الشخصية لرنا أبو فول"
-                 width="200">
+        <article id="article">
 
-            <figcaption>رنا عمر أبو فول</figcaption>
-        </figure>
-    </section>
+            <header>
+                <h2>أهمية التكنولوجيا في حياتنا اليومية</h2>
+                <p>إعداد: رنا أبو فول</p>
+                <p>
+                    تاريخ النشر:
+                    <time datetime="2026-11-27">
+                        27 نوفمبر 2026
+                    </time>
+                </p>
+            </header>
 
-    <hr>
+            <p>
+                أصبحت التكنولوجيا جزءًا أساسيًا من حياتنا اليومية،
+                حيث ساهمت في تسهيل الكثير من الأعمال وتوفير الوقت
+                والجهد، وأصبحت وسيلة مهمة للتواصل والتعلم والعمل.
+            </p>
 
-    <!-- SKILLS -->
-    <section>
-        <h2>المهارات</h2>
+            <figure>
+                <img
+                    src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=900"
+                    alt="شخص يستخدم جهاز الحاسوب">
+                <figcaption>
+                    التكنولوجيا تساعد الإنسان في إنجاز أعماله اليومية.
+                </figcaption>
+            </figure>
 
-        <ul>
-            <li>أساسيات لغة HTML</li>
-            <li>التصميم باستخدام Photoshop</li>
-            <li>إدارة المشاريع الصغيرة</li>
-            <li>التواصل والعمل الجماعي</li>
-            <li>التخطيط والتنظيم</li>
-            <li>الإبداع وحل المشكلات</li>
-        </ul>
-    </section>
+            <section>
+                <h3>مفهوم التكنولوجيا</h3>
+                <p>
+                    التكنولوجيا هي استخدام المعرفة والوسائل الحديثة
+                    لتطوير الأدوات والخدمات وحل المشكلات التي تواجه
+                    الإنسان في مختلف مجالات الحياة.
+                </p>
+            </section>
 
-    <hr>
+            <section id="benefits">
+                <h3>أهم فوائد التكنولوجيا</h3>
 
-    <!-- EDUCATION -->
-    <section>
-        <h2>التعليم</h2>
+                <ul>
+                    <li>تسهيل التواصل بين الأشخاص.</li>
+                    <li>توفير المعلومات بسرعة وسهولة.</li>
+                    <li>تطوير التعليم والتعلم الإلكتروني.</li>
+                    <li>تسهيل إنجاز الأعمال والمعاملات.</li>
+                    <li>المساعدة في تطوير الخدمات الصحية.</li>
+                </ul>
+            </section>
 
-        <table>
-            <thead>
-                <tr>
-                    <th>السنة</th>
-                    <th>الجامعة</th>
-                    <th>الدرجة العلمية</th>
-                </tr>
-            </thead>
+            <section>
+                <h3>تأثير التكنولوجيا على المجتمع</h3>
 
-            <tbody>
-                <tr>
-                    <td>2026</td>
-                    <td>جامعة الأقصى</td>
-                    <td>بكالوريوس نظم معلومات إدارية وتجارية معاصرة (قيد الدراسة)</td>
-                </tr>
+                <p>
+                    ساعدت التكنولوجيا على تطور المجتمعات في مجالات
+                    التعليم والاقتصاد والاتصالات، كما أتاحت فرصًا
+                    جديدة للعمل والإبداع وتبادل المعرفة.
+                </p>
+            </section>
 
-                <tr>
-                    <td>قبل الجامعة</td>
-                    <td>التعليم المدرسي</td>
-                    <td>الثانوية العامة</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
+            <blockquote>
+                التكنولوجيا ليست مجرد أدوات نستخدمها،
+                بل وسيلة تساعدنا على بناء مستقبل أفضل.
+                <cite>مقولة توعوية</cite>
+            </blockquote>
 
-    <hr>
+            <section>
+                <h3>فيديو عن التكنولوجيا</h3>
 
-    <!-- EXPERIENCE -->
-    <section>
-        <h2>الخبرات</h2>
+                <iframe
+                    src="https://www.youtube-nocookie.com/embed/UB1O30fR-EE"
+                    title="فيديو تعليمي عن التكنولوجيا والويب"
+                    allowfullscreen>
+                </iframe>
+            </section>
 
-        <ol>
-            <li>
-                إعداد وتطوير مشروع لمسة لإعادة استخدام المواد البلاستيكية والكرتون (2026).
-            </li>
+            <section>
+                <h3>أسئلة شائعة</h3>
 
-            <li>
-                إعداد وتنفيذ مشاريع أكاديمية في مجال نظم المعلومات الإدارية (2026).
-            </li>
+                <details>
+                    <summary>هل التكنولوجيا مهمة في التعليم؟</summary>
+                    <p>
+                        نعم، تساعد التكنولوجيا في الوصول إلى
+                        المعلومات واستخدام وسائل تعليمية متنوعة.
+                    </p>
+                </details>
 
-            <li>
-                إعداد تصاميم جرافيكية باستخدام Photoshop وتطوير المهارات التصميمية (2025).
-            </li>
-        </ol>
-    </section>
+                <details>
+                    <summary>هل للتكنولوجيا سلبيات؟</summary>
+                    <p>
+                        نعم، قد يؤدي الاستخدام المفرط لها إلى
+                        إضاعة الوقت وتقليل التواصل المباشر.
+                    </p>
+                </details>
+            </section>
 
-    <hr>
+        </article>
 
-    <!-- CONTACT -->
-    <section>
-        <h2>التواصل</h2>
+        <aside>
+            <h2>عن المدونة</h2>
 
-        <ul>
-            <li>
-                <a href="mailto:rnaabwfwl7@gmail.com">
-                    rnaabwfwl7@gmail.com
-                </a>
-            </li>
+            <p>
+                مدونة تعليمية تهدف إلى نشر المعرفة
+                والتعريف بأهمية التكنولوجيا في حياتنا.
+            </p>
 
-            <li>
-                <a href="tel:+970599695216">
-                    0599695216
-                </a>
-            </li>
+            <h3>موضوعات أخرى</h3>
 
-            <li>
-                <a href="https://github.com/rnaabwfwl7-commits"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    حساب GitHub
-                </a>
-            </li>
-        </ul>
-    </section>
+            <ul>
+                <li>التعليم الإلكتروني.</li>
+                <li>الذكاء الاصطناعي.</li>
+                <li>الأمن الرقمي.</li>
+                <li>التجارة الإلكترونية.</li>
+            </ul>
 
-    <footer>
-        <p>© 2026 رنا أبو فول - السيرة الذاتية الشخصية</p>
+            <h3>نصيحة</h3>
+
+            <p>
+                استخدم التكنولوجيا بطريقة إيجابية
+                واستفد من إمكاناتها في تطوير مهاراتك.
+            </p>
+        </aside>
+
+    </main>
+
+    <footer id="contact">
+
+        <address>
+            للتواصل:
+            <a href="mailto:info@example.com">
+                info@example.com
+            </a>
+        </address>
+
+        <p>جميع الحقوق محفوظة © 2026</p>
+
+        <a href="#home">العودة إلى الأعلى</a>
+
     </footer>
-
-</div>
 
 </body>
 </html>
